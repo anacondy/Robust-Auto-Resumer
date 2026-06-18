@@ -1,0 +1,49 @@
+:root {
+  --bg-color: #F9F9EE; /* Cream off-white */
+  --text-color: #1A1AFA; /* Striking royal blue */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  width: 400px;
+  margin: 0;
+  padding: 30px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header {
+  margin-bottom: 40px;
+  text-align: right;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.download-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.label {
+  text-align: right;
+}
+
+.value {
+  text-align: left;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 0;
+}
