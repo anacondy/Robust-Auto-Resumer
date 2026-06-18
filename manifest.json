@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Robust Auto-Resumer",
+  "version": "1.0",
+  "description": "Automatically resumes downloads that are interrupted due to network drops.",
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
